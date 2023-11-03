@@ -1,5 +1,6 @@
 from typing import List
 from random import randint
+import datetime
 
 class Cell:
     def __init__(self, around_mines:int = 0, mine:bool = False):
